@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (1.3.1)
+  - Async (1.3.1)
+  - Cartography (0.5.0)
+  - Cent (3.0.3):
+    - Dollar (~> 3.0.3)
+  - Dollar (3.0.3)
+  - HanekeSwift (0.9.1)
+  - JLToast (1.2.5)
+  - PathKit (0.3.0)
+  - RavenSwift (0.2.1)
+  - SwiftyJSON (2.2.1)
+  - XCGLogger (2.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 1.2)
+  - Async (from `https://github.com/duemunk/Async.git`)
+  - Cartography
+  - Cent
+  - Dollar
+  - HanekeSwift
+  - JLToast
+  - PathKit
+  - RavenSwift
+  - SwiftyJSON (~> 2.2.0)
+  - XCGLogger
+
+EXTERNAL SOURCES:
+  Async:
+    :git: https://github.com/duemunk/Async.git
+
+CHECKOUT OPTIONS:
+  Async:
+    :commit: 9e64046b767fe11010891f5b7fe2aed613a6ee55
+    :git: https://github.com/duemunk/Async.git
+
+SPEC CHECKSUMS:
+  Alamofire: e4ab637e3195b645c814b87a652373439e59f2a4
+  Async: edb15b1e34181d7c9873ce6b5d6eabc1c99e638b
+  Cartography: 774e5cc446f5a6bca5d4345c5aa6af9a1fe74dc6
+  Cent: 3ad646e53bb97085bbf1e63520eeb3b5430dac6a
+  Dollar: ae37f1da42cdc16061fcc1e91a070281b207f5c8
+  HanekeSwift: 50d37bfbc4432edc649167e538c259feccb4a2bb
+  JLToast: ad061dadb49580b86b47535b869390aab0c6a03b
+  PathKit: 0f4d1becb7002e3cd62a1583ce8de964d57485ce
+  RavenSwift: 0808b4942b8fc9b361bffabbcd67f40e086f6a1c
+  SwiftyJSON: ae2d0a3d68025d136602a33c4ee215091ced3e33
+  XCGLogger: bbfe599d8ccc4c2d0a72ce652eb1f5e6bb28e3d0
+
+COCOAPODS: 0.38.2
