@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+//        test()
+        
+        
+        return true
+    }
+    
+    func test() {
         var str:NSString = "hello"
         str.name = "aaa"
         println(str.name)
@@ -29,9 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         var demo3 = OCClass()
         demo3.hello()
-        
-        
-        return true
     }
 
     func applicationWillResignActive(application: UIApplication) {
