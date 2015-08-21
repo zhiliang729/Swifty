@@ -16,6 +16,10 @@
 		7038A7F31B7F009500077EE7 /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038A7F21B7F009500077EE7 /* SwiftClass.swift */; };
 		7038A7F71B7F054500077EE7 /* OCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7038A7F61B7F054500077EE7 /* OCClass.m */; };
 		7038A7FA1B7F057300077EE7 /* NSString+name.m in Sources */ = {isa = PBXBuildFile; fileRef = 7038A7F91B7F057300077EE7 /* NSString+name.m */; };
+		703BFE101B84320C006D42E6 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703BFE0F1B84320B006D42E6 /* ToDoItem.swift */; };
+		703BFE121B843388006D42E6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703BFE111B843388006D42E6 /* Common.swift */; };
+		703BFE141B843600006D42E6 /* Metting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703BFE131B843600006D42E6 /* Metting.swift */; };
+		7059B6231B85795200AF6DA6 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059B6221B85795200AF6DA6 /* TypeAlias.swift */; };
 		83E879318FD5A452154D2A1B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0AC763D53DDE02DBD181EF /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -46,6 +50,10 @@
 		7038A7F81B7F057300077EE7 /* NSString+name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+name.h"; sourceTree = "<group>"; };
 		7038A7F91B7F057300077EE7 /* NSString+name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+name.m"; sourceTree = "<group>"; };
 		7038A7FB1B7F0B3900077EE7 /* Swifty-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swifty-Bridging-Header.h"; sourceTree = "<group>"; };
+		703BFE0F1B84320B006D42E6 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		703BFE111B843388006D42E6 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		703BFE131B843600006D42E6 /* Metting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metting.swift; sourceTree = "<group>"; };
+		7059B6221B85795200AF6DA6 /* TypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		8E0AC763D53DDE02DBD181EF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE9AFEA4294865924471EB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E184B713828F22C7D80A7FF9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +170,10 @@
 				7038A7F61B7F054500077EE7 /* OCClass.m */,
 				7038A7F81B7F057300077EE7 /* NSString+name.h */,
 				7038A7F91B7F057300077EE7 /* NSString+name.m */,
+				703BFE0F1B84320B006D42E6 /* ToDoItem.swift */,
+				703BFE111B843388006D42E6 /* Common.swift */,
+				703BFE131B843600006D42E6 /* Metting.swift */,
+				7059B6221B85795200AF6DA6 /* TypeAlias.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -334,11 +346,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703BFE141B843600006D42E6 /* Metting.swift in Sources */,
 				7038A7F71B7F054500077EE7 /* OCClass.m in Sources */,
 				7038A7E81B7F000200077EE7 /* ViewController.swift in Sources */,
+				7059B6231B85795200AF6DA6 /* TypeAlias.swift in Sources */,
+				703BFE101B84320C006D42E6 /* ToDoItem.swift in Sources */,
 				7038A7FA1B7F057300077EE7 /* NSString+name.m in Sources */,
 				7038A7E71B7F000200077EE7 /* AppDelegate.swift in Sources */,
 				7038A7F31B7F009500077EE7 /* SwiftClass.swift in Sources */,
+				703BFE121B843388006D42E6 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +493,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fed2d686-fc9e-40a9-8968-dd70550e0379";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -492,6 +509,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fed2d686-fc9e-40a9-8968-dd70550e0379";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(inherited)";
 			};
 			name = Release;
@@ -511,6 +529,7 @@
 				INFOPLIST_FILE = SwiftyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a6577ad-aab4-4fd1-b97f-6785eb1c5798";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(inherited)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifty.app/Swifty";
 			};
@@ -527,6 +546,7 @@
 				INFOPLIST_FILE = SwiftyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a6577ad-aab4-4fd1-b97f-6785eb1c5798";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(inherited)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifty.app/Swifty";
 			};
